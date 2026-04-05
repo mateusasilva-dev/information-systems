@@ -1,6 +1,6 @@
 # Basic Calculator
 
-This is a simple calculator built with HTML, CSS and JavaScript
+This is a simple calculator built with HTML, CSS and JavaScript.
 
 ## Features
 
@@ -38,16 +38,8 @@ This is a simple calculator built with HTML, CSS and JavaScript
 3. Click on one of the operation buttons (+, -, ÷, ×, %)
 4. View the result displayed on the screen
 
-## How to Run
+## Live Demo
 
-1. Clone this repository:
+You can access the project directly in your browser:
 
-```bash
-git clone https://github.com/mateusasilva-dev/information-systems/basic-calculator.git
-```
-
-2. Open the project folder
-
-3. Open the `index.html` file in your browser
-
-#
+👉 https://mateusasilva-dev.github.io/information-systems/basic-calculator/
