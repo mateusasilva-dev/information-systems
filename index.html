@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Basic Calculator</title>
+  </head>
+  <body>
+    <h1>Basic Calculator</h1>
+
+    <main class="container">
+      <div class="div-1">
+        <label for="first-operator">Operator 1</label>
+        <input type="number" id="first-operator" name="Operator 1" />
+      </div>
+
+      <div class="div-2">
+        <label for="second-operator">Operator 2</label>
+        <input type="number" id="second-operator" name="Operator 2" />
+      </div>
+
+      <div class="div-3">
+        <label for="result">Result</label>
+        <input type="number" id="result" name="Result" readonly />
+      </div>
+
+      <div class="div-4">
+        <button onclick="add()">&plus;</button>
+        <button onclick="subtract()">&minus;</button>
+        <button onclick="divide()">&divide;</button>
+        <button onclick="multiply()">&times;</button>
+        <button onclick="calculatePercentage()">&percnt;</button>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
